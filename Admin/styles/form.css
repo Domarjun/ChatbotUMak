@@ -1,0 +1,704 @@
+body {
+    background-color:#faefce;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.contact-form {
+    margin: 0 auto;
+    width: 35%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.profile-pic {
+    position: absolute;
+    margin:0;
+    padding:0;
+    left: 32.5%;
+}
+
+h1 {
+    text-align: center;
+    color: #2e2d2d; 
+    margin-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+.heading{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.signin {
+    margin-top: 125px;
+    padding: 80px 0 20px 0;
+    background-color: #faf9f5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input.user {
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(26, 25, 25);
+    color: rgb(31, 30, 30);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    text-align: center;
+    letter-spacing: 3px;
+}
+input.pass {
+    width: 80%;
+    background: none;
+    border: none;
+    color: rgb(20, 20, 20);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	text-align: left;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    background: #333232;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+	cursor: pointer;
+	outline: none;
+}
+input[type="submit"]:hover {
+    background: #f5e09c;
+    color: #333232;
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+.footer p {
+  
+font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #212222;
+}
+
+
+@media screen and (max-width: 2150px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 70px;   
+    }
+    .heading{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+    .subheading{
+        margin-top: -1%;
+    }
+    .contact-form {
+        width: 30%;
+    }
+    .signin {
+        padding: 80px 0 30px 0;
+    }
+    .profile-pic {
+        top: -100%;
+        left: 33%;
+    }
+    input.user {
+        font-size: 20px;
+    }
+    input.pass {
+        font-size: 20px;
+    }
+    .footer {
+        margin-top: 150px;
+    }
+    .footer p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 70px;   
+    }
+    .heading{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+    .subheading{
+        margin-top: -1%;
+    }
+    .contact-form {
+        width: 30%;
+    }
+    .signin {
+        padding: 80px 0 30px 0;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 33%;
+    }
+    input.user {
+        font-size: 20px;
+    }
+    input.pass {
+        font-size: 20px;
+    }
+    .footer {
+        margin-top: 150px;
+    }
+    .footer p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1680px) {
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .heading{
+    font-size: 95px;
+    margin-bottom: 0;
+}
+    .profile-pic {
+        top: -20%;
+        left: 33%;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .subheading{
+        margin-top: -1%;
+    }
+    .contact-form {
+        width: 35%;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .subheading{
+        margin-top: -1%;
+    }
+    .contact-form {
+        width: 40%;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 35%;
+    }
+    .footer {
+        margin-top: 80px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .heading{
+    font-size: 90px;
+    margin-bottom: 0;
+}
+    .subheading{
+        margin-top: -1%;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+    .footer {
+        margin-top: 80px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        margin-top: 100px;
+    }
+    .subheading{
+        margin-top: -1%;
+    }
+    .contact-form {
+        width: 45%;
+    }
+    .signin {
+        margin-top: 100px;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+    .footer {
+        margin-top: 70px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 966px) {
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+    .heading{
+    font-size: 75px;
+    margin-bottom: 0;
+}
+}
+
+@media screen and (max-width: 853px) {
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        margin-top: 60px;
+    }
+    .heading{
+    font-size: 65px;
+    margin-bottom: 0;
+}
+    .subheading{
+        margin-top: -1%;
+    }
+    .contact-form {
+        width: 50%;
+    }
+    .signin {
+        margin-top: 100px;
+    }
+    .profile-pic {
+       
+        left: 30%;
+    }
+    .footer {
+        margin-top: 125px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .contact-form {
+        width: 65%;
+    }
+    h1 {
+        margin-top: 45px;
+    }
+    .subheading{
+        margin-top: -1%;
+        font-size: 50px;
+    }
+    .signin {
+        margin-top: 100px;
+        padding: 60px 0 10px 0;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 37%;
+    }
+    img {
+        width: 130px;
+    }
+    input.user {
+        padding: 15px;   
+    }
+    input.pass {
+        padding: 15px;   
+    }
+    input[type="submit"] {
+        padding: 15px;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .contact-form {
+        width: 70%;
+    }
+    h1 {
+        margin-top: 45px;
+    }
+    .heading{
+    font-size: 55px;
+    margin-bottom: 0;
+}
+    .subheading{
+        margin-top: -1%;
+        font-size: 40px;
+    }
+    .signin {
+        margin-top: 100px;
+        padding: 60px 0 10px 0;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+    img {
+        width: 130px;
+    }
+    input.user {
+        padding: 15px;   
+    }
+    input.pass {
+        padding: 15px;   
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 603px) {
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .signin {
+        margin-top: 100px;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+    img {
+        width: 130px;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .contact-form {
+        width: 80%;
+    }
+    h1 {
+        margin-top: 45px;
+    }
+    .heading{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+    .subheading{
+        margin-top: -1%;
+        font-size: 30px;
+    }
+    .signin {
+        margin-top: 100px;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+    img {
+        width: 140px;
+    }
+    input.user {
+        padding: 15px;   
+    }
+    input.pass {
+        padding: 15px;   
+    }
+    input[type="submit"] {
+        padding: 15px;
+    }
+    .footer {
+        margin: 50px 30px 0 30px;
+    }
+}
+
+@media screen and (max-width: 533px) {
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 35px;
+    }
+    .subheading{
+        margin-top: -1%;
+    }
+    .profile-pic {
+        top: -20%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .contact-form {
+        width: 95%;
+    }
+    h1 {
+        margin-top: 45px;
+        font-size: 20px;
+    }
+    .subheading{
+        margin-top: -1%;
+    }
+    .signin {
+        margin-top: 100px;
+    }
+    .profile-pic {
+       
+        left: 30%;
+    }
+    input.user {
+        padding: 15px;   
+    }
+    input.pass {
+        padding: 15px;   
+    }
+    .footer {
+        margin: 50px 10px 0 10px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    h1 {
+        margin-top: 45px;
+    
+    }
+    .subheading{
+        margin-top: -1%;
+    }
+    .profile-pic {
+        top: -26%;
+        left: 31%;
+    }
+    img {
+        width: 135px;
+    }
+    .signin {
+        margin-top: 100px;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        
+        margin-top: 45px;
+    }
+    .subheading{
+        margin-top: -1%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .signin {
+        margin-top: 100px;
+    }
+    .profile-pic {
+        left: 31%;
+    }
+    input.user {
+        padding: 15px;   
+    }
+    input.pass {
+        padding: 15px;   
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 24px;
+        margin-top: 45px;
+    }
+    .subheading{
+        margin-top: -1%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .signin {
+        margin-top: 100px;
+        padding: 50px 0 5px 0;
+    }
+    .profile-pic {
+        top: -22%;
+        left: 31%;
+    }
+    
+    img {
+        width: 110px;
+    }
+    input.user {
+        padding: 15px;   
+    }
+    input.pass {
+        padding: 15px;   
+    }
+    input[type="submit"] {
+        padding: 12px;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    h1 {
+        font-size: 18px;
+        margin-top: 45px;
+    }
+    .subheading{
+        margin-top: -1%;
+    }
+
+    .signin {
+        margin-top: 70px;
+        padding: 50px 0 5px 0;
+    }
+    .profile-pic {
+        top: -18%;
+        left: 26%;
+    }
+    img {
+        width: 100px;
+    }
+    input.user {
+        padding: 12px;
+        font-size: 15px;
+    }
+    input.pass {
+        padding: 12px;
+        font-size: 15px;
+    }
+    input[type="submit"] {
+        padding: 8px;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+}
+::placeholder {
+  color: rgb(32, 32, 32);
+}
